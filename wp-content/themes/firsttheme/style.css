@@ -1,0 +1,283 @@
+/*
+
+Theme Name: firsttheme;
+
+Author Name: 
+
+Author URI:
+
+Version:1.0.1
+
+*/
+
+
+
+
+/*  hd search */
+
+div.hd-search{
+	
+	float:right;
+	
+	
+}
+
+
+/* post aside style */
+
+article.post-aside,
+
+article.post-link{
+	
+	font-size:125%;
+	background-color:yellow;
+	padding:20px;
+	border-radius:5px;
+	
+	
+}
+
+/*  this will override the prevous value */
+article.post-link{
+	
+	padding:0px;
+	
+	background-color:blue;
+	
+}
+
+
+article.post-link a{
+	
+	display:block;
+	
+	padding:20px;
+	
+}
+
+
+.mini-data{
+	
+	font-size:68%;
+	margin:0px;
+	
+	color:pink;
+	
+}
+
+/* content post gallery */
+
+article.post-gallery{
+	
+	background-color:pink;
+	padding:10px;
+	color:red;
+	
+	margin:10px;
+	
+	
+}
+article.post-gallery img{
+	
+	border:none;
+}
+
+article.post-gallery h3{
+	
+	text-align:center;
+	
+	
+}
+
+
+
+
+
+body{
+	
+	
+	font-family: Arial, sans-serif;
+	
+	font-size: 14px;
+	
+	color: #333;
+	
+}
+
+a:link,
+
+a:visited{
+	
+	color: #00ec3;
+}
+
+p{
+	
+	line-height: 1.65em;
+}
+
+
+div.container{
+	
+	max-width:920px;
+	
+	margin: 0 auto;
+	
+	padding-left:20px;
+	padding-right:20px;
+	
+}
+
+/*  site header */
+.site-header{
+	
+	border-bottom:2px solid #999;
+}
+
+
+/* site footer */
+
+.site-footer{
+	
+	
+	margin-top: 30px;
+	border-bottom:2px solid #999;
+}
+
+
+article.post{
+	
+	border-bottom: 2px dotted #bbbbbb;
+	
+}
+
+article.post:last-of-type{
+	
+	border-bottom:none;
+}
+
+
+
+/* for the nav link */
+.site-nav ul{
+	
+	margin:0;
+	padding:0;
+	
+
+}
+
+.site-nav ul:before, .site-nav ul:after{content:""; display:table; }
+
+.site-nav ul:after{clear:both;}
+
+.site-nav ul{*zoom:1;}
+
+
+
+.site-nav ul li{
+	
+list-style:none;
+float:left;	
+
+}
+
+
+.site-header nav ul li {
+	
+	margin-right:5px;
+}
+
+/* for the site header */
+
+.site-header nav ul li a:link,
+.site-footer nav ul li a:visited{
+	
+	display:block;
+	
+	padding:18px 18px;
+	
+	border:1px solid #888;
+	
+	border-bottom:none;
+	
+	text-decoration:none;
+	
+	
+}
+
+.site-header nav ul li a:hover{
+	
+	
+	
+	background-color:#ECECEC;
+}
+
+
+
+.site-header nav ul li.current-menu-item a:link,
+.site-footer nav ul li.current-menu-item a:visited{
+	
+	background-color: #006ec3;
+	
+	color:#fff
+	
+	
+}
+
+
+/* footer menu */
+
+
+.site-footer nav ul li{
+	
+	margin-right:10px;
+	
+	padding-right:10px;
+	border-right:1px dotted #BBB;
+	
+	
+}
+
+
+/*  info box */
+
+div.info-box{
+	
+	width:30%;
+	
+	float:right;
+	
+	margin: 0 0 30px 30px;
+	padding:20px;
+	background-color:#EEE;
+	
+}
+
+div.info-box h4{
+	
+margin-bottom:6px;
+	
+}
+
+div.info-box p{
+	
+	font-size:85%;
+	
+}
+
+img{
+	
+	max-width:100%;
+	
+	height:auto;
+	
+}
+
+
+
+
+
+
+
+
